@@ -2,7 +2,7 @@ class ChainRpc < Formula
   desc "Fast CLI tool for finding public RPC endpoints for blockchain networks"
   homepage "https://github.com/nksazonov/chain-rpc"
   url "https://github.com/nksazonov/chain-rpc/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  sha256 "6c2dd6bf338901ff87c32eeb411090917a2ad65d0e85c4dfba40c72d9006b0ff"
   license "MIT"
 
   depends_on "go" => :build
