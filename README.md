@@ -1,5 +1,7 @@
 # Nksazonov Chain-rpc
 
+A homebrew tap repo for a `chain-rpc` cli tool to get public rpc urls for various blockchains.
+
 ## How do I install these formulae?
 
 `brew install nksazonov/chain-rpc/<formula>`
