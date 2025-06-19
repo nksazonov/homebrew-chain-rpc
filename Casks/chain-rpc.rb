@@ -2,6 +2,7 @@
 cask "chain-rpc" do
   version "0.1.1"
 
+  name "chain-rpc"
   desc "Fast CLI tool for finding public RPC endpoints for blockchain networks"
   homepage "https://github.com/nksazonov/chain-rpc"
 
