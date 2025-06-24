@@ -1,8 +1,8 @@
 class ChainRpc < Formula
   desc "Fast CLI tool for finding public RPC endpoints for blockchain networks"
   homepage "https://github.com/nksazonov/chain-rpc"
-  url "https://github.com/nksazonov/chain-rpc/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "3206e1a70726a1f01022b10467afea2a5ed3e05485f8e14bb5690b1bee943191"
+  url "https://github.com/nksazonov/chain-rpc/archive/refs/tags/v0.1.2.tar.gz"
+  sha256 "0ca417edc299bd36de759d48ebbdb5383679d5d0182c78732ab667ec4331e1a1"
   license "MIT"
 
   depends_on "go" => :build
@@ -13,7 +13,7 @@ class ChainRpc < Formula
 
   test do
     # Test version command
-    assert_match "0.1.1", shell_output("#{bin}/chain-rpc version")
+    assert_match "0.1.2", shell_output("#{bin}/chain-rpc version")
 
     # Test help command
     assert_match "Find first working RPC endpoint", shell_output("#{bin}/chain-rpc --help")
